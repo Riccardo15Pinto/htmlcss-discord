@@ -44,9 +44,11 @@ footer{
     background-color: #23272A;
 }
 
-hr{
+select{
+    border: 1px solid #23272A;
     color: white;
-    margin-top: 40px;
+    padding-left: 5px;
+    background-color: transparent;
 }
 
 /* header element */
@@ -234,12 +236,10 @@ hr{
 
 .foot-box{
     height: 500px;
-    border: 3px dashed red;
 }
 
 .left-foot{
     flex-basis: 30%;
-    background-color: #F08080;
 }
 
 .right-foot{
@@ -264,23 +264,54 @@ hr{
     color:#4A5882;
 }
 
+.your-place{
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.logo-ita{
+    height: 20px;
+}
+
+.left-sub-element{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.social-info{
+    padding-top: 25px;
+}
+
+.social-info > *{
+    padding-right: 20px;
+    font-size: 25px;
+}
+
 .bottom-footer{
     display: flex;
     justify-content: center;
 }
 
 .bottom-foot-element{
-    background-color: #FFB6C1;
-    border: 2px dashed black;
-    padding: 10px;
     font-size: 25px;
 }
 
 .bottom-info{
-    background-color: #7FFFD4;
     width: var(--big-width);
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 20px 0;
-    margin-top: 30px;
+    margin-top: 10px;
+}
+
+.logo-footer{
+    text-align: left;
+}
+
+.sing-in{
+    font-size: 15px;
+    background-color: #8EA1E1;
+    color: white;
 }
