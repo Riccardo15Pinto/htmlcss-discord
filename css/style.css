@@ -198,10 +198,12 @@ select{
 }
 
 .ready{
+    display: inline-block;
+    background-repeat: no-repeat;
     background-image: url("../img/stars.svg");
     background-size: contain;
     font-size: 30px;
-    padding: 20px 0;
+    padding: 41px 28px;
     margin-top: 70px;
 }
 
