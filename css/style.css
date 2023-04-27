@@ -19,7 +19,8 @@ body{
 }
 
 header{
-    background-color: #ADD8E6;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
 ul{
@@ -29,7 +30,13 @@ ul{
 
 li{
     list-style: none;
-    margin: 0 5px;    
+    margin: 0 20px;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 footer{
@@ -53,13 +60,11 @@ hr{
     display: flex;
     height: 40px;
     margin: 20px 0;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .box{
-    background-color: #DAA520;
-    border: 3px dashed black;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
 }
 
@@ -71,13 +76,18 @@ hr{
     flex-basis: 60%;
 }
 
+.log-right{
+    text-align: right;
+}
+
 .login{
-    display: flex;
-    justify-content: flex-end;
+   background-color: white;
+   color: black;
+   padding: 5px;
+   border-radius: 20px;
 }
 
 .jumbotron{
-    background-color: #00008B;
     display: flex;
     justify-content: center;
     align-items: center;
