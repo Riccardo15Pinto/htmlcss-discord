@@ -143,6 +143,7 @@ hr{
 .section-row{
     display: flex;
     justify-content: center;
+    padding: 150px 0;
 }
 
 .row{
@@ -153,17 +154,14 @@ hr{
 
 .row-element{
     height: 500px;
-    border: 3px dashed black;
 }
 
 .big-element{
     flex-basis: 80%;
-    background-color: #1E90FF;
 }
 
 .small-element{
     flex-basis: 40%;
-    background-color: #FFC0CB;
 }
 
 .title-row{
@@ -183,13 +181,41 @@ hr{
 }
 
 .last-row-element{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-basis: 100%;
-    height: 900px;
-    border: 3px dashed black;
-    background-color: #228B22;
+    text-align: center;
+}
+
+.ready-space{
+    margin-top: 50px;
+}
+
+.last-row-element-button{
+    background-color: #8EA1E1;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.ready{
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    font-size: 30px;
+    padding: 20px 0;
+    margin-top: 70px;
+}
+
+.last-row-element-button::before{
+    content: "\1F817";
+    padding-right: 20px;    
+} 
+
+.wave{
+    background-image: url("../img/wave.svg");
+    height: 80px;
+    opacity: 0.17;
+}
+ 
+.rotate{
+    rotate: 180deg;
 }
 
 /* footer */
@@ -197,15 +223,14 @@ hr{
 .top-footer{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 
 .foot-container{
     width: var(--big-width);
     display: flex;
+    border-bottom: 2px solid #4A5882;
 }
-
-
 
 .foot-box{
     height: 500px;
@@ -226,6 +251,19 @@ hr{
 .right-foot-element{
     border: 2px dashed white;
     flex-basis: calc(100% / 4 );
+}
+
+.right-foot-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+.first-element-list{
+    color:#4A5882;
 }
 
 .bottom-footer{
