@@ -21,7 +21,7 @@ body{
 header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    height: 500px;
+    height: 600px;
 }
 
 ul{
@@ -84,7 +84,7 @@ hr{
 .login{
    background-color: white;
    color: black;
-   padding: 5px;
+   padding: 10px;
    border-radius: 20px;
 }
 
@@ -97,14 +97,41 @@ hr{
 }
 
 .jumbotron-element > *{
-    padding: 30px 0;
+    padding: 26px 30px;
+}
+
+.jumbo-title{
+    font-size: 60px;
 }
 
 .jumbotron-element{
+    line-height: 35px;
+    color: white;
     flex-basis: 45%;
     text-align: center;
     font-weight: bolder;
     font-size: larger;
+}
+
+.jumbo-buttom{
+    margin:0 25px;
+    border-radius: 30px;
+    padding: 20px 40px;
+    line-height: 100px;
+}
+    
+.dx::before{
+    content: "\1F817";
+    padding-right: 20px;    
+} 
+
+.dx{
+    background-color: white;
+    color: black;
+}
+
+.sx{
+    background-color: black;
 }
 
 .header-bottom{
